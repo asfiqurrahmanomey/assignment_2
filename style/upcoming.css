@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+/* default custom css start  */
 body{
     display: grid;
     grid-template-areas: 
@@ -20,7 +21,6 @@ body{
     'footer'
     ;
 }
-/* default css */
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -52,6 +52,7 @@ h5{
     padding: 8px;
     text-align: center;
 }
+/* default custom css start  */
 /* hero part start */
 .container{
     width: 86%;
@@ -67,13 +68,12 @@ h5{
     width: 1100px;
     height: 503px;
 }
-
-/* .hero_part:hover{
+.hero_part:hover{
     border: 2px dashed white;
     border-radius: 10px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-} */
+}
 .mobile_view{
     display: none;
 }
@@ -200,6 +200,7 @@ h5{
 /* mobile responsive start */
 /* Extra small devices (phones, 576px and down) */
 @media screen and (max-width: 576px) {
+    /* hero part start */
     .container{
         width: 91%;
     }
@@ -243,7 +244,8 @@ h5{
         padding: 0;
         width: auto;
     }
-    /*  */
+    /* hero part end */
+    /* main part start */
     .blog{
         width: 100%;
         padding: 0;
@@ -320,6 +322,8 @@ h5{
         font-size: 30px;
         margin-top: 10px;
     }
+    /* main part end */
+    /* footer part start */
     #footer{
         margin-top: 65px;
     }
@@ -341,14 +345,18 @@ h5{
     .fa-icon{
         font-size: 40px;
     }
+    /* footer part end */
 }
 /* mobile responsive end */
 /* tablet responsive start */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+        /* hero part start */
     .container{
         width: 91%;
     }
+    /* hero part end */
+    /* main part start */
     .tablet_button{
         display: block;
     }
@@ -418,6 +426,8 @@ h5{
     #tablet_view{
         margin: 30px 0 50px 0;
     }
+    /* main part end */
+    /* footer part start */
     .footer_menu{
         width:65%;
         margin: auto;
@@ -426,5 +436,7 @@ h5{
     .footer_icon a{
         font-size: 50px;
     }
+    /* tablet part end */
 
 }
+/* tablet responsive end */

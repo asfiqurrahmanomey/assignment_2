@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+/* default custom css start  */
 body{
     display: grid;
     grid-template-areas: 
@@ -20,7 +21,6 @@ body{
     'footer'
     ;
 }
-/* default css */
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -52,6 +52,7 @@ h5{
     padding: 8px;
     text-align: center;
 }
+/* default custom css start  */
 /* hero part start */
 .container{
     width: 86%;
@@ -200,6 +201,7 @@ h5{
 /* mobile responsive start */
 /* Extra small devices (phones, 576px and down) */
 @media screen and (max-width: 576px) {
+    /* hero part start */
     .container{
         width: 92%;
     }
@@ -243,6 +245,8 @@ h5{
         padding: 0;
         width: auto;
     }
+    /* hero part end */
+    /* main part start */
     .blog{
         width: 100%;
         padding: 0;
@@ -254,7 +258,6 @@ h5{
         display: inline;
         border: none;
     }
-
     .mobile_but_1{
         display: flex;
         color: #000;
@@ -279,7 +282,6 @@ h5{
         justify-content: space-evenly;
         margin: 35px auto;
     }
-
     .mobile_but{
         display: flex;
         font-size: 35px;
@@ -334,7 +336,8 @@ h5{
         color: var(--primary-text-color);
         font-size: 40px;
     }
-
+    /* main part end */
+    /* footer part start */
     .footer_area{
     height: 145vh;
     }
@@ -349,14 +352,18 @@ h5{
     .fa-icon{
         font-size: 40px;
     }
+    /* footer part end */
 }
 /* mobile responsive end */
 /* tablet responsive start */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+    /* hero part start */
     .container{
         width: 91%;
     }
+    /* hero part end */
+    /* main part start */
     .tablet_button{
         display: block;
     }
@@ -408,6 +415,8 @@ h5{
     .blog_img img{
         width: 100%;
     }
+    /* main part end */
+    /* footer part start */
     .footer_menu{
         width:65%;
         margin: auto;
@@ -416,6 +425,7 @@ h5{
     .footer_icon a{
         font-size: 50px;
     }
+    /* tablet part end */
 
 }
 /* tablet responsive end */
