@@ -107,8 +107,8 @@ h5{
     100% {background-color:rgb(243, 154, 52); left:0px; top:0px;}
   }
 /* hero part end */
-/* main part start */
-    .blog{
+/* main part start */ 
+.blog{
         width: 1100px;
         display: flex;
         padding: 90px;
@@ -188,51 +188,156 @@ h5{
         height: 50px;
     }
 /* footer part end */
-/* tablet button */
-.button_3{
-    background-color: #E8E8E8;
-    width: 187px;
-    height: 56px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 25px;
-    display: none;
-}
-.button_3 a{
-    color: #161616;
-}
-.view{
-    display: none;
-}
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 576px and down) */
 @media screen and (max-width: 576px) {
+    /* hero part end*/
     .container{
-        margin: 40px 0 0 -190px;
+        justify-content: space-evenly;
+        margin: 50px 50px 40px 50px;
     }
     .hero_part{
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    width: 60%;
-    height: 927px;
-    background-color: var(--primary-text-color);
-    border-radius: 30px;
+        display: grid;
+        text-align: center;
+        height: 1110px;
+        background-color: var(--primary-text-color);
+        border-radius: 30px;
     }
-    }
+
     .hero_text{
         width: auto;
+    }
+    .hero_text h1{
+        font-size: 90px;
     }
     .mobile_view{
         display: block;
         margin-top: 10px;
+        font-weight: bolder;
+        font-size: 38px;
     }
     .desktop_view{
         display: none;
     }
     .hero_img{
         width: auto;
+        position: relative;
     }
     .hero_img img{
+        height: 659px;
+        padding: 0;
+        width: auto;
     }
+    .blog{
+        width: 1100px;
+        padding: 0;
+        margin: 0 0 0 94px;
     }
-  
+    .match_update{
+        display: none;
+    }
+    #mobile_button{
+        display: inline;
+        border: none;
+    }
+
+    .mobile_but_1{
+        display: flex;
+        color: #000;
+        font-size: 35px;
+        width: 400px;
+        height: 100px;
+        border: 1px solid var(--primary-text-color);
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 35px auto;
+    }
+    .mobile_but_2{
+        display: flex;
+        color: #000;
+        font-size: 35px;
+        width: 325px;
+        height: 100px;
+        border: 1px solid var(--primary-text-color);
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 35px auto;
+    }
+
+    .mobile_but{
+        display: flex;
+        font-size: 35px;
+        background-color: var(--button-color);
+        width: 325px;
+        height: 100px;
+        border: none;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 35px auto;
+    }
+    .update{
+        display: block;
+    }
+    .blog_item{
+        margin: 60px;
+        border-radius: 16px;
+    }
+    .blog_text{
+        padding: 40px;
+    }
+    .blog_img img{
+        width: 1000px;
+    }
+
+    .transfer h5{
+        font-size: 40px;
+        border: 1px solid #161616;
+        border-radius: 10px;
+        width: 240px;
+        height: 80px;
+        padding: 24px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .tranfer_text h2{
+        font-size: 34px;
+        font-weight: bolder;
+        color: var(--primary-text-color);
+        width: 50%;
+    }
+
+    .icon{
+        width: 50%;
+    }
+
+    .click{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: var(--primary-text-color);
+        font-size: 40px;
+    }
+
+    .footer_area{
+    height: 125vh;
+    }
+    hr{
+        width: 65%;
+        display: -webkit-inline-box;
+    }
+    .footer_menu{
+        padding: 0;
+    }
+    .footer_menu a{
+        display: block;
+        font-size: 2rem;
+        color:  #B9B9B9;
+    }
+    .footer_icon{
+        display: none;
+    }
+
+}
+/* mobile responsive end */
