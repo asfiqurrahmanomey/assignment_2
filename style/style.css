@@ -117,6 +117,9 @@ h5{
         width: 100%;
         padding: 90px;
     }
+    .tablet_button{
+        display: none;
+    }
     .update{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -126,7 +129,7 @@ h5{
     .match_update{
         grid-column: 1 / 2;
         grid-row: 1 / -5;
-        height: 275px;
+
         background: #161616;
         border-radius: 20px;
         padding: 30px;
@@ -332,10 +335,6 @@ h5{
     .footer_area{
     height: 145vh;
     }
-    hr{
-        width: 65%;
-        display: -webkit-inline-box;
-    }
     .footer_menu{
         padding: 0;
     }
@@ -354,6 +353,38 @@ h5{
 @media only screen and (min-width: 577px) and (max-width: 992px) {
     .container{
         width: 92%;
+    }
+    .tablet_button{
+        display: block;
+    }
+    .tab_button{
+        display: flex;
+        justify-content: center;
+    }
+    .tab2{
+        background-color: #FFFFFF;
+        width: 187px;
+        height: 56px;
+        border: none;
+        border-radius: 10px;
+        border: 0.5px solid var(--primary-text-color);
+        border-radius: 10px;
+    }
+    .tab2 a{
+        color: #161616;
+    }
+    .tab1{
+        background-color: var(--button-color);
+        width: 187px;
+        height: 56px;
+        border: none;
+        border-radius: 10px;
+    }
+    .tab_btn > button{
+        margin: 25px 0 0 30px;
+    }
+    .blog{
+        padding: 50px;
     }
     .match_update{
         display: none;
@@ -381,3 +412,4 @@ h5{
     }
 
 }
+/* tablet responsive end */
