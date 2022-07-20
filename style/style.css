@@ -20,6 +20,29 @@ body{
     'main'
     'footer'
     ;
+    background: #d6dee4 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    animation: 10s linear 0s normal none infinite animate;    
+    }    
+    @-webkit-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+    }    
+    @-moz-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+    }     
+    @-ms-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+    }    
+    @-o-keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+    }    
+    @keyframes animate {
+        from {background-position:0 0;}
+        to {background-position: 500px 0;}
+
 }
 a{
     text-decoration: none;
@@ -118,6 +141,9 @@ h5{
         padding: 90px;
     }
     .tablet_button{
+        display: none;
+    }
+    #mobile_button{
         display: none;
     }
     .update{
@@ -360,7 +386,7 @@ h5{
 @media only screen and (min-width: 577px) and (max-width: 992px) {
     /* hero part start */
     .container{
-        width: 91%;
+        width: 89%;
     }
     /* hero part end */
     /* main part start */
@@ -394,7 +420,7 @@ h5{
         margin: 25px 0 0 30px;
     }
     .blog{
-        padding: 50px;
+        width: 97%;
     }
     .match_update{
         display: none;
