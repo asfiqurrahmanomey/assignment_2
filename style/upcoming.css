@@ -20,6 +20,7 @@ body{
     'main'
     'footer'
     ;
+    
 }
 a{
     text-decoration: none;
@@ -59,6 +60,7 @@ h5{
     display: flex;
     justify-content: flex-end;
     margin: 50px 50px 0 50px;
+    
 }
 .hero_part{
     background-color: var(--primary-text-color);
@@ -67,6 +69,24 @@ h5{
     align-items: center;   
     width: 1100px;
     height: 503px;
+    animation: pulse 10s infinite;
+}
+    @keyframes pulse {
+        0% {
+            background-color: #001F3F;
+        }
+        25% {
+            background-color: darkseagreen;
+        }
+        50% {
+            background-color: rgb(186, 135, 245);
+        }
+        75% {
+            background-color: rgb(39, 39, 39);
+        }
+        100% {
+            background-color: #12769e;
+        }
 }
 .hero_part:hover{
     border: 2px dashed white;
@@ -384,7 +404,7 @@ h5{
         border-radius: 10px;
     }
     .tab_btn > button{
-        margin: 25px 0 0 30px;
+        margin: 25px;
     }
     .match_update{
         display: none;
@@ -404,7 +424,7 @@ h5{
         display: none;
     }
     .blog{
-        width: 100%;
+        width: 98%;
         padding: 40px 68px 0 102px;
     }
     .blog_text{
