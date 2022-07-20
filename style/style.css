@@ -202,12 +202,12 @@ h5{
 /* Extra small devices (phones, 576px and down) */
 @media screen and (max-width: 576px) {
     .container{
-        width: 91%;
+        width: 92%;
     }
     .hero_part{
         display: grid;
         text-align: center;
-        height: 287vh;
+        height: 332vh;
         background-color: var(--primary-text-color);
         border-radius: 30px;
     }
@@ -340,7 +340,7 @@ h5{
     }
     .footer_menu a{
         display: block;
-        font-size: 2rem;
+        font-size:  27px;
         color:  #B9B9B9;
     }
     .fa-icon{
