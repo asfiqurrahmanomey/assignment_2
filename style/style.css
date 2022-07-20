@@ -243,7 +243,7 @@ h5{
     .hero_part{
         display: grid;
         text-align: center;
-        height: 276vh;
+        height: auto;
         background-color: var(--primary-text-color);
         border-radius: 30px;
     }
@@ -374,10 +374,7 @@ h5{
     /* main part end */
     /* footer part start */
     .footer_area{
-    height: 145vh;
-    }
-    .footer_menu{
-        padding: 0;
+    height: auto;
     }
     .footer_menu a{
         display: block;
