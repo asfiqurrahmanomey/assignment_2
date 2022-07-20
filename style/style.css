@@ -129,11 +129,8 @@ h5{
         height: 275px;
         background: #161616;
         border-radius: 20px;
-        padding: 18px;
-        height: 312px;
-    }
-    .update_button{
-        padding: 15px;
+        padding: 30px;
+        height: 325px;
     }
     .button_2{
         background-color: var(--text-color);
@@ -181,6 +178,10 @@ h5{
         font-size: 40px;
         color: var(--text-color);
         margin-bottom: 30px;
+    }
+    hr{
+        width: 80%;
+        margin-left: 160px;
     }
     .footer_menu{
         padding: 35px;
